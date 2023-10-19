@@ -69,24 +69,18 @@ export const projectsData = [
     imageUrl: valwaxImg,
   },
   {
-    title: "Your pet",
-    description:
-      "Using React, Redux, and related technologies, this web app is a haven for pet lovers. It enables users to post ads, register, customize themes, manage favorites, search, and apply filters. Plus, users can maintain personal profiles to update info and oversee their ads.",
-    tags: [
-      "React",
-      "Redux Toolkit",
-      "Formik",
-      "React Router",
-      "Styled Components",
-    ],
-    imageUrl: yourPetImg,
-  },
-  {
     title: "Remote demining",
     description:
       "Interactive platform for Remote Demining awareness. Features sliders, info cards, news, and admin section for content management.",
     tags: ["React", "Next.js", "TypeScript", "React Hook Form", "React Slick"],
     imageUrl: remoteDeminingImg,
+  },
+  {
+    title: "Your pet",
+    description:
+      "Using React, Redux, and related technologies, this web app is a haven for pet lovers. It enables users to post ads, register, customize themes, manage favorites, search, and apply filters.",
+    tags: ["React", "Redux Toolkit", "Formik", "Styled Components"],
+    imageUrl: yourPetImg,
   },
 ] as const;
 
