@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+
+import remoteDeminingImg from "@/public/images/remoteDemining.png";
 import valwaxImg from "@/public/images/valwax.png";
 import yourPetImg from "@/public/images/yourPet.png";
-import remoteDeminingImg from "@/public/images/remoteDemining.png";
 
 export const links = [
   {
