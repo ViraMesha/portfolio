@@ -1,14 +1,24 @@
 "use client";
 import Image from "next/image";
-import avatarImg from "@/public/images/avatar.jpg";
-import { motion } from "framer-motion";
 import Link from "next/link";
+import { useEffect } from "react";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
+import { HiDownload } from "react-icons/hi";
+import { motion } from "framer-motion";
+
+import { useSectionInView } from "@/hooks";
+import avatarImg from "@/public/images/avatar.jpg";
+
 export default function Intro() {
+  const { ref } = useSectionInView("Home");
+
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      ref={ref}
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      id="home"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
