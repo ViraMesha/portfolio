@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { SiNextdotjs } from "react-icons/si";
 
 import remoteDeminingImg from "@/public/images/remoteDemining.png";
 import valwaxImg from "@/public/images/valwax.png";
@@ -36,28 +36,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated GoIT",
+    location: "online",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After 11 months of studying, I graduated and was continually improving my skills while gaining valuable experience through volunteer projects.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Baza Trainee Ukraine",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I volunteered as a front-end developer for about 3 months on a real project. During this time, I collaborated with a team, gaining valuable experience in the tech industry and expanding my skills.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jun 2023 - Aug 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Front-End Developer",
+    location: "Team Challenge",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I've been actively contributing as a front-end developer to a meaningful real-life volunteer project, where I've had the opportunity to apply my skills and collaborate with a dedicated team. I'm open to full-time opportunities.",
+    icon: React.createElement(SiNextdotjs),
+    date: "Jun 2023 - present",
   },
 ] as const;
 
