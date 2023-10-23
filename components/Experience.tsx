@@ -15,7 +15,7 @@ import "react-vertical-timeline-component/style.min.css";
 export default function Experience() {
   const { ref } = useSectionInView("Experience", 0.5);
   return (
-    <section id="experience" ref={ref}>
+    <section id="experience" ref={ref} className="mb-28 sm:mb-40 scroll-mt-28">
       <SectionHeading>My experience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map(
