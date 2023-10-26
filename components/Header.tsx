@@ -3,7 +3,7 @@ import Link from "next/link";
 import clsx from "clsx";
 import { motion } from "framer-motion";
 
-import { useActiveSectionContext } from "@/context/activeSectionContext";
+import { useActiveSectionContext } from "@/context/ActiveSectionContext";
 import { links } from "@/lib/data";
 
 export default function Header() {
@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <header className="z-[999] relative">
       <motion.div
-        className="fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full"
+        className="fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full dark:bg-sky-950 dark:border-black/40 dark:bg-opacity-75"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
@@ -29,8 +29,8 @@ export default function Header() {
               <Link
                 href={hash}
                 className={clsx(
-                  "w-full flex items-center justify-center p-3 hover:text-zinc-700 transition",
-                  { "text-zinc-700": activeSection === name }
+                  "w-full flex items-center justify-center p-3 hover:text-zinc-700 transition dark:text-sky-500 dark:hover:text-sky-300",
+                  { "text-zinc-700 dark:text-zinc-200": activeSection === name }
                 )}
                 onClick={() => {
                   setActiveSection(name);
@@ -46,7 +46,7 @@ export default function Header() {
                       stiffness: 380,
                       damping: 30,
                     }}
-                    className="bg-sky-100 rounded-full absolute inset-0 -z-10"
+                    className="bg-sky-100 rounded-full absolute inset-0 -z-10 dark:bg-sky-800"
                   ></motion.span>
                 )}
               </Link>

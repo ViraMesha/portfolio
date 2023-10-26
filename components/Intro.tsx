@@ -7,7 +7,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 import { motion } from "framer-motion";
 
-import { useActiveSectionContext } from "@/context/activeSectionContext";
+import { useActiveSectionContext } from "@/context/ActiveSectionContext";
 import { useSectionInView } from "@/hooks";
 import avatarImg from "@/public/images/avatar.jpg";
 
@@ -86,7 +86,7 @@ export default function Intro() {
         <a
           href="/CV.pdf"
           target="_blank"
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition borderBlack"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition borderBlack dark:bg-white/10"
         >
           Download CV
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
@@ -96,7 +96,7 @@ export default function Intro() {
           aria-label="Link to Vira's Linkedin"
           target="_blank"
           rel="noreferrer noopener"
-          className="bg-white text-sky-900 text-[1.35rem] p-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:text-sky-950  active:scale-105 transition borderBlack"
+          className="bg-white text-sky-900 text-[1.35rem] p-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:text-sky-950  active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
@@ -105,7 +105,7 @@ export default function Intro() {
           aria-label="Link to Vira's Github"
           target="_blank"
           rel="noreferrer noopener"
-          className="bg-white text-sky-900 text-[1.35rem] p-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:text-sky-950 active:scale-105 transition borderBlack"
+          className="bg-white text-sky-900 text-[1.35rem] p-3 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 hover:text-sky-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />
         </a>
