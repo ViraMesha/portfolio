@@ -5,7 +5,7 @@ import { Toaster } from "react-hot-toast";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ThemeSwitch from "@/components/ThemeSwitch";
-import ActiveSectionContextProvider from "@/context/ActiveSectionContext";
+import ActiveSectionContextProvider from "@/context/activeSectionContext";
 import ThemeContextProvider from "@/context/ThemeContext";
 
 import "./globals.css";

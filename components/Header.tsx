@@ -3,7 +3,7 @@ import Link from "next/link";
 import clsx from "clsx";
 import { motion } from "framer-motion";
 
-import { useActiveSectionContext } from "@/context/ActiveSectionContext";
+import { useActiveSectionContext } from "@/context/activeSectionContext";
 import { links } from "@/lib/data";
 
 export default function Header() {

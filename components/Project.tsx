@@ -11,6 +11,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -32,7 +33,14 @@ export default function Project({
     >
       <article className=" bg-sky-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-sky-200 transition sm:group-even:pl-8 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white">
         <div className="pt-4 pb-4 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
-          <h3 className="text-2xl font-semibold">{title}</h3>
+          <a
+            href={link}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="text-2xl font-semibold hover:underline transition-all"
+          >
+            {title}
+          </a>
           <p className="mt-2 leading-relaxed text-sky-800 dark:text-white/80">
             {description}
           </p>
@@ -52,7 +60,6 @@ export default function Project({
           alt="Project I've worked on"
           quality={90}
           className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-40 group-hover:translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 transition group-hover:scale-105
-        
         group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2
         hidden sm:block
         "

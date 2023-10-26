@@ -7,7 +7,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 import { motion } from "framer-motion";
 
-import { useActiveSectionContext } from "@/context/ActiveSectionContext";
+import { useActiveSectionContext } from "@/context/activeSectionContext";
 import { useSectionInView } from "@/hooks";
 import avatarImg from "@/public/images/avatar.jpg";
 

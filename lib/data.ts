@@ -64,6 +64,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Valwax",
+    link: "https://github.com/ViraMesha/valwax",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "TypeScript", "i18n", "React Hook Form"],
@@ -71,6 +72,7 @@ export const projectsData = [
   },
   {
     title: "Remote demining",
+    link: "https://github.com/ViraMesha/remote-demining",
     description:
       "Interactive platform for Remote Demining awareness. Features sliders, info cards, news, and admin section for content management.",
     tags: ["React", "Next.js", "TypeScript", "React Hook Form", "React Slick"],
@@ -78,6 +80,7 @@ export const projectsData = [
   },
   {
     title: "Your pet",
+    link: "https://github.com/ViraMesha/project-42-front",
     description:
       "Using React, Redux, and related technologies, this web app is a haven for pet lovers. It enables users to post ads, register, customize themes, manage favorites, search, and apply filters.",
     tags: ["React", "Redux Toolkit", "Formik", "Styled Components"],
