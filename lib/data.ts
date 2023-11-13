@@ -66,7 +66,7 @@ export const projectsData = [
     title: "Valwax",
     link: "https://github.com/ViraMesha/valwax",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "A dynamic online shop where users can explore and purchase a variety of candles and boxes, with the unique option to customize their own candles.",
     tags: ["React", "Next.js", "TypeScript", "i18n", "React Hook Form"],
     imageUrl: valwaxImg,
   },
