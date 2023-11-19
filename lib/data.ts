@@ -3,6 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { SiNextdotjs } from "react-icons/si";
 
+import filmotekaImg from "@/public/images/filmoteka.png";
+import foodStaImg from "@/public/images/foodsta.png";
 import remoteDeminingImg from "@/public/images/remoteDemining.png";
 import valwaxImg from "@/public/images/valwax.png";
 import yourPetImg from "@/public/images/yourPet.png";
@@ -85,6 +87,31 @@ export const projectsData = [
       "Using React, Redux, and related technologies, this web app is a haven for pet lovers. It enables users to post ads, register, customize themes, manage favorites, search, and apply filters.",
     tags: ["React", "Redux Toolkit", "Formik", "Styled Components"],
     imageUrl: yourPetImg,
+  },
+  {
+    title: "Filmoteka",
+    link: "https://github.com/RossHaluz/team-project-filmoteka",
+    description:
+      'A two-page movie catalogue website with adaptive design, dark theme, pagination, and a movie library that lets users add titles to "queue" or "watched" lists. Role: developer (header section)',
+    tags: [
+      "HTML",
+      "SCSS",
+      "JavaScript",
+      "REST API",
+      "Axios",
+      "Parcel",
+      "Pagination",
+      "Animate.css",
+    ],
+    imageUrl: filmotekaImg,
+  },
+  {
+    title: "FoodSta",
+    link: "https://github.com/SlobodianiukDS/foodsta",
+    description:
+      "It's a user-friendly website for ordering food online with an adaptive layout for convenient use on any device. My role was scrum-master and I also created the offerings section.",
+    tags: ["HTML", "SCSS", "JavaScript", "Parcel"],
+    imageUrl: foodStaImg,
   },
 ] as const;
 
