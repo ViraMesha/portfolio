@@ -3,8 +3,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { SiNextdotjs } from "react-icons/si";
 
+import arcraftImg from "@/public/images/arcraft.png";
 import filmotekaImg from "@/public/images/filmoteka.png";
 import foodStaImg from "@/public/images/foodsta.png";
+import growfyImg from "@/public/images/growfy.png";
 import remoteDeminingImg from "@/public/images/remoteDemining.png";
 import valwaxImg from "@/public/images/valwax.png";
 import yourPetImg from "@/public/images/yourPet.png";
@@ -73,6 +75,21 @@ export const projectsData = [
     imageUrl: valwaxImg,
   },
   {
+    title: "Arcraft",
+    link: "https://github.com/ViraMesha/arcraft",
+    description:
+      "It's a cutting-edge architect website crafted with NextJS, TailwindCSS, and MDX integrated with Contentlayer for dynamic blog and project posts, complemented by smooth animations powered by Framer Motion.",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Framer Motion",
+      "MDX",
+    ],
+    imageUrl: arcraftImg,
+  },
+  {
     title: "Remote demining",
     link: "https://github.com/ViraMesha/remote-demining",
     description:
@@ -112,6 +129,14 @@ export const projectsData = [
       "It's a user-friendly website for ordering food online with an adaptive layout for convenient use on any device. My role was scrum-master and I also created the offerings section.",
     tags: ["HTML", "SCSS", "JavaScript", "Parcel"],
     imageUrl: foodStaImg,
+  },
+  {
+    title: "Growfy",
+    link: "https://github.com/ViraMesha/growfy",
+    description:
+      "It's an interactive showcase of my HTML, CSS, and JS skills — a user-friendly website with adaptive design, demonstrating expertise in marketing solutions for business growth.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: growfyImg,
   },
 ] as const;
 
