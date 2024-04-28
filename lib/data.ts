@@ -7,6 +7,7 @@ import arcraftImg from "@/public/images/arcraft.png";
 import filmotekaImg from "@/public/images/filmoteka.png";
 import foodStaImg from "@/public/images/foodsta.png";
 import growfyImg from "@/public/images/growfy.png";
+import iPhone15ProImg from "@/public/images/iPhone15Pro.png";
 import remoteDeminingImg from "@/public/images/remoteDemining.png";
 import valwaxImg from "@/public/images/valwax.png";
 import yourPetImg from "@/public/images/yourPet.png";
@@ -66,6 +67,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "iPhone 15 Pro",
+    link: "https://github.com/ViraMesha/apple",
+    description:
+      "A website that looks like the iPhone 15 Pro page from Apple. I used React, Three.js, and GSAP to make it work smoothly on any device.",
+    tags: ["React", "TypeScript", "Three.js", "Vite", "GSAP", "TailwindCSS"],
+    imageUrl: iPhone15ProImg,
+  },
   {
     title: "Valwax",
     link: "https://github.com/ViraMesha/valwax",
