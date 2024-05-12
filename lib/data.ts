@@ -8,6 +8,7 @@ import filmotekaImg from "@/public/images/filmoteka.png";
 import foodStaImg from "@/public/images/foodsta.png";
 import growfyImg from "@/public/images/growfy.png";
 import iPhone15ProImg from "@/public/images/iPhone15Pro.png";
+import musicArtist from "@/public/images/music_artist.png";
 import remoteDeminingImg from "@/public/images/remoteDemining.png";
 import valwaxImg from "@/public/images/valwax.png";
 import yourPetImg from "@/public/images/yourPet.png";
@@ -67,6 +68,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Music Artist",
+    link: "https://github.com/ViraMesha/music-artist",
+    description:
+      "Explore the dynamic world of Mia Reynolds through our sleek and responsive landing page. Powered by Next.js, Tailwind CSS, and Framer Motion, the website brings to life the captivating portfolio of this talented artist.",
+    tags: ["Next.js", "TypeScript", "Framer Motion", "TailwindCSS", "Swiper"],
+    imageUrl: musicArtist,
+  },
   {
     title: "iPhone 15 Pro",
     link: "https://github.com/ViraMesha/apple",
